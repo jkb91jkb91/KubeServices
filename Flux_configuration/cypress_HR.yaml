@@ -1,0 +1,63 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta2
+kind: HelmRelease
+metadata:
+  name: sorry-cypress
+  namespace: staging
+spec:
+  interval: 1m
+  chart:
+    spec:
+      chart: ./HelmCharts/cypress_prod
+      sourceRef:
+        kind: GitRepository
+        name: flux-system
+        namespace: flux-system
+  values:
+    api:
+      resources:
+        limits:
+          cpu: 350m
+          memory: 512Mi
+        requests:
+          cpu: 350m
+          memory: 512Mi
+    dashboard:
+      resources:
+        limits:
+          cpu: 250m
+          memory: 512Mi
+        requests:
+          cpu: 250m
+          memory: 512Mi
+    director:
+      resources:
+        limits:
+          cpu: 250m
+          memory: 512Mi
+        requests:
+          cpu: 250m
+          memory: 512Mi
+    minio:
+      resources:
+        limits:
+          cpu: 300m
+          memory: 512Mi
+        requests:
+          cpu: 300m
+          memory: 512Mi
+    mongodb:
+      resources:
+        limits:
+           cpu: 200m
+           memory: 256Mi
+        requests:
+           cpu: 200m
+           memory: 256Mi
+      arbiter:
+        resources:
+          limits:
+             cpu: 200m
+             memory: 512Mi
+          requests:
+             cpu: 200m
+             memory: 512Mi
