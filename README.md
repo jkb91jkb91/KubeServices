@@ -57,4 +57,5 @@ Application contains full-fledged CICD system deployed also on cluster that cons
 5) Cypress GUI to display test results  
 
 <!-- AUTHOR -->
+## AUTHOR
 Email: jakub.g26101991@gmail.com
