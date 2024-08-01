@@ -23,7 +23,7 @@ Whole repo is meant to create:
 This repo uses GitOps approach with Flux and contains manifests deployed on kubernetes cluster  
 Most important files are:  
 1) HelmCharts  # HelmCharts folder  
-2) services for HelmCharts application  # Service_Yamls  
+2) Services for HelmCharts application  # Service_Yamls  
 
 additional files:  
 3) NFS manifests linked to the POD # Kubernetes_Yamls  
