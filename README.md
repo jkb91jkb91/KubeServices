@@ -15,21 +15,15 @@ This repo contains helm charts used to deploy on kubernetes cluster
 * ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 <!-- DETAILED DESCRIPTION -->
-## Detailed description
+## Detailed description  
 This repo uses GitOps approach with Flux and contains manifests deployed on kubernetes cluster  
-It has two types of helm files:
-1) related to application
-2) services for application
+Most important files are:  
+1) HelmCharts  
+2) services for HelmCharts application  
 
-additional files
-3) for NFS linked to the POD
-
-Whole repo contains:  
-1) Flux_configuration  # flux files + files pointing to HelmCharts  
-2) HelmCharts   # application manifests  
-4) Kubernetes_Yamls # NFS  
-5) Service_yamls    #  services manifests  
-
+additional:
+3) NFS manifests linked to the POD  
+4) jenkins jobs used for: artifactory,sonarqube  
 
 <!-- RESULT -->
 ## Result
