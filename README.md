@@ -11,6 +11,13 @@ Prerequisuite step >>>  1) https://github.com/jkb91jkb91/JenkinsCreator  # Creat
 Prerequisuite step >>> 2) https://github.com/jkb91jkb91/Jenkins_KubeStarter  # Creates kubeadm kubernetes cluster on EC2 instances  
 **Current step  >>> 3) https://github.com/jkb91jkb91/KubeServices**
 
+| Step              | Link                                                                                          | Description                                             |
+|-------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| Prerequisite step | [JenkinsCreator](https://github.com/jkb91jkb91/JenkinsCreator)                                | Creates Jenkins instance with jobs                      |
+| Prerequisite step | [Jenkins_KubeStarter](https://github.com/jkb91jkb91/Jenkins_KubeStarter)                      | Creates kubeadm kubernetes cluster on EC2 instances     |
+| Current step      | [KubeServices](https://github.com/jkb91jkb91/KubeServices)                                    | Creates Kubernetes services                             |
+
+
 This repo contains helm charts used to deploy on kubernetes cluster  
 Whole repo is meant to create:  
 1) working application on kubernetes cluster
