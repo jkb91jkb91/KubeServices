@@ -18,18 +18,32 @@ Whole repo is meant to create:
 * ![Flux](https://img.shields.io/badge/Flux-023042?style=for-the-badge&logo=flux&logoColor=white)
 * ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
-<!-- DETAILED DESCRIPTION -->
-## Detailed description  
+<!-- FOLDER DESCRIPTION -->
+## Folder description  
 This repo uses GitOps approach with Flux and contains manifests deployed on kubernetes cluster  
 Most important files are:  
 1) HelmCharts  # HelmCharts folder  
-2) Services for HelmCharts application  # Service_Yamls  folder
+2) Services for HelmCharts application  # Service_Yamls  folder  
 3) NFS manifests linked to the POD # Kubernetes_Yamls  
 4) jenkins jobs used for: artifactory,sonarqube  # Jenkins_jobs folder, dependencies for CICD services  
 
-<!-- RESULT -->
-## Result
+<!-- APPLICATION DESCRIPTION -->
+## Application description
+Application running on kubernetes cluster is working on few microservices  
+1) Angular + Nginx as a frontend  
+2) Django + Nginx as a backend  
+3) PostgreSQL as main database  
+4) Memcached for cache  
+5) RabbitMQ for queue  
 
+<!-- CICD SERVICES DESCRIPTION -->
+## CICD services description  
+Application running on kubernetes cluster is working on few microservices  
+1) Sonarqube for static code analysis  
+2) Jfrog Artifactory to store artifacts  
+3) Prometheus to export data  
+4) Grafana to visualize data on dashboards  
+5) Cypress GUI to display test results  
 
 <!-- AUTHOR -->
 ## Author
