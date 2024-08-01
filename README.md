@@ -6,11 +6,6 @@
 This repository is used as a part of bigger project and have 2 prerequisuites:  
 
 
-STEPS:  
-Prerequisuite step >>>  1) https://github.com/jkb91jkb91/JenkinsCreator  # Creates Jenkins instance with jobs  
-Prerequisuite step >>> 2) https://github.com/jkb91jkb91/Jenkins_KubeStarter  # Creates kubeadm kubernetes cluster on EC2 instances  
-**Current step  >>> 3) https://github.com/jkb91jkb91/KubeServices**
-
 | Step              | Link                                                                                          | Description                                             |
 |-------------------|-----------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | Prerequisite step | [JenkinsCreator](https://github.com/jkb91jkb91/JenkinsCreator)                                | Creates Jenkins instance with jobs                      |
