@@ -3,17 +3,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project  
-This repository is used as a part of bigger project and it is triggered by JENKINS JOBS created as prerequsuite here:
-https://github.com/jkb91jkb91/JenkinsCreator  
-It is going to deploy kubernetes cluster on EC2 intances on AWS  
+This repository is used as a part of bigger project and have 2 prerequisuites:  
+1) https://github.com/jkb91jkb91/JenkinsCreator  # Creates Jenkins instance with jobs  
+2) https://github.com/jkb91jkb91/Jenkins_KubeStarter # Logic used by jenkins jobs from prerequisuite 1, this step creates kubeadm kubernetes cluster  
 
-This repository contains files related to IaC  
--terraform  
--ansible  
+This repo contains helm charts used to deploy on kubernetes cluster
 
-additional files:  
-  -bashrc  
-  -prepare_for_ansible.sh (to get IP and SSH KEY on local machine) 
 
 <!-- TECHNOLOGIES -->
 ## Technologies
@@ -26,29 +21,10 @@ Technologies used to create this site:
 <!-- DETAILED DESCRIPTION -->
 ## Detailed description
 
-CODE FROM THIS REPO WILL BE TRIGGERED BY THIS JOBS (prerequisuite >>  https://github.com/jkb91jkb91/JenkinsCreator)  
-Prerequisuite step will create for us JENKINS instance and bootstrap it with such jobs:  
-
-JOB1 = A_terraform_stack_create.json  
-JOB2 = B_ansible_stack_create.json  
-JOB3 = C_ansible_stack_delete.json  
-JOB4 = D_terraform_stack_delete.json  
-
-   
-
-STEP CREATION
-To create the whole stack do:  
-manual trigger ONLY JOB1: (JOB1 = A_terraform_stack_create.json >--automatically triggered-> JOB2 = B_ansible_stack_create.json)  
-
-STEP REMOVING
-To delete the whole stack do:  
-manual trigger ONLY JOB3: (JOB3 = C_ansible_stack_delete.json   >--automatically triggered-> JOB4 D_terraform_stack_delete.json)  
 
 <!-- RESULT -->
 ## Result
 
-STEP CREATION RESULT = Created kubeadm kubernetes cluster with master and worker nodes being deployed on EC2 AWS instances  
-STEP REMOVING RESULT = Removing whole stack from AWS  
 
 <!-- AUTHOR -->
 ## Author
