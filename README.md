@@ -10,8 +10,6 @@ This repository is used as a part of bigger project and have 2 prerequisuites:
 This repo contains helm charts used to deploy on kubernetes cluster
 <!-- TECHNOLOGIES -->
 ## Technologies
-
-Technologies:
 * ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 * ![Flux](https://img.shields.io/badge/Flux-023042?style=for-the-badge&logo=flux&logoColor=white)
 * ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
