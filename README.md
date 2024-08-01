@@ -7,7 +7,7 @@ This repository is used as a part of bigger project and have 2 prerequisuites:
 1) https://github.com/jkb91jkb91/JenkinsCreator  # Creates Jenkins instance with jobs  
 2) https://github.com/jkb91jkb91/Jenkins_KubeStarter # Creates kubeadm kubernetes cluster on EC2 instances 
 
-This repo contains helm charts used to deploy on kubernetes cluster
+This repo contains helm charts used to deploy on kubernetes cluster  
 Whole repo is meant to create:  
 1) working application on kubernetes cluster
 2) services used co create full-fledged CICD solution with monitoring on prometheus and grafana
