@@ -22,12 +22,12 @@ Whole repo is meant to create:
 ## Detailed description  
 This repo uses GitOps approach with Flux and contains manifests deployed on kubernetes cluster  
 Most important files are:  
-1) HelmCharts  
-2) services for HelmCharts application  
+1) HelmCharts  # HelmCharts folder  
+2) services for HelmCharts application  # Service_Yamls  
 
-additional:
-3) NFS manifests linked to the POD  
-4) jenkins jobs used for: artifactory,sonarqube  
+additional files:
+3) NFS manifests linked to the POD # Kubernetes_Yamls  
+4) jenkins jobs used for: artifactory,sonarqube  # Dependencies for CICD services  
 
 <!-- RESULT -->
 ## Result
