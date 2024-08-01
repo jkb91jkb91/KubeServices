@@ -25,7 +25,7 @@ Most important files are:
 1) HelmCharts  # HelmCharts folder  
 2) services for HelmCharts application  # Service_Yamls  
 
-additional files:
+additional files:  
 3) NFS manifests linked to the POD # Kubernetes_Yamls  
 4) jenkins jobs used for: artifactory,sonarqube  # Dependencies for CICD services  
 
