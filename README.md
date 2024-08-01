@@ -5,7 +5,7 @@
 ## About The Project  
 This repository is used as a part of bigger project and have 2 prerequisuites:  
 1) https://github.com/jkb91jkb91/JenkinsCreator  # Creates Jenkins instance with jobs  
-2) https://github.com/jkb91jkb91/Jenkins_KubeStarter # Logic used by jenkins jobs from prerequisuite 1, this step creates kubeadm kubernetes cluster  
+2) https://github.com/jkb91jkb91/Jenkins_KubeStarter # Creates kubeadm kubernetes cluster on EC2 instances 
 
 This repo contains helm charts used to deploy on kubernetes cluster
 
