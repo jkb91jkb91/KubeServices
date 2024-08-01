@@ -21,12 +21,14 @@ It has two types of helm files:
 1) related to application
 2) services for application
 
+additional files
+3) for NFS linked to the POD
+
 Whole repo contains:  
-1) Flux configuration and manifests pointing to HelmCharts  
-2) HelmCharts  
-3) Jenkins jobs  
-4) NFS manifests >> Kubernetes_Yamls  
-5) Additional Services >> Service_yamls  
+1) Flux_configuration  # flux files + files pointing to HelmCharts  
+2) HelmCharts   # application manifests  
+4) Kubernetes_Yamls # NFS  
+5) Service_yamls    #  services manifests  
 
 
 <!-- RESULT -->
