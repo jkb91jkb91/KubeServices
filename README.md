@@ -29,7 +29,7 @@ Most important files are:
 
 <!-- APPLICATION DESCRIPTION -->
 ## Application description
-Application running on kubernetes cluster is working on few microservices  
+Application running on kubernetes cluster is working on few microservices:  
 1) Angular + Nginx as a frontend  
 2) Django + Nginx as a backend  
 3) PostgreSQL as main database  
@@ -38,7 +38,7 @@ Application running on kubernetes cluster is working on few microservices
 
 <!-- CICD SERVICES DESCRIPTION -->
 ## CICD services description  
-Application running on kubernetes cluster is working on few microservices  
+Application contains full-fledged CICD system deployed also on cluster that consists of below:   
 1) Sonarqube for static code analysis  
 2) Jfrog Artifactory to store artifacts  
 3) Prometheus to export data  
